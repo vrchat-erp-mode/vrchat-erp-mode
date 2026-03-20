@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {}
     }
 
-    document.querySelectorAll('a[download]').forEach(btn => {
+    document.querySelectorAll('.download-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             sendDownloadWebhook();
         });
